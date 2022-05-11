@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: black;
+    padding: 2%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly
+}
+.ff{
+    display: flex;
+    gap: 30%;
+    position: relative;
+}
+.un{
+    background-color: red;
+    text-align: center;
+    height: auto;
+    color: white;
+    width: 100%;
+    padding-bottom: 8%;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 10%;
+}
+.grnd{
+    margin-top: 4%;
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+.deux{
+    text-align: center;
+    justify-content: center;
+}
+.ii{
+    width: 25%;
+    padding: 0 20px 20px 20px;
+    border-radius: 30px;
+}
+.tkt{
+    padding-top: 2%;
+    font-size: 40px;
+    color: black;
+}
+.trois{
+    background-color: red;
+    text-align: center;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.le2p{
+    display: flex;
+    width: 50%;
+    gap: 50px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    color: white;
+}
+input{
+    outline-color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+    opacity: 0.3;
+    margin-bottom: 30px;
+    width: 70%;
+}
+.fin{
+    text-align: center;
+}
+.g{
+    margin-right: 500px;
+    color: gray;
+}
+.arasanda{
+    width: 50%;
+    margin-left: 23%;
+}
+.specialname{
+    margin-right: 555px;
+    color: gray;
+}
+.specialmes{
+    margin-right: 543px;
+    color: gray;
+}
+.more{
+    margin-top: 50px;
+}
+.con{
+    margin-top: 100px;
+}
+.bl{
+    color: white;
+}
+.btn{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-color: white;
+    border-radius: 15%;
+    margin-right: 550px;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 634px) and (max-width: 768px){
+    nav{
+        background-color: black;
+        padding: 2%;
+        color: white;
+        display: flex;
+        justify-content: space-evenly
+    }
+    .ff{
+        display: flex;
+        gap: 12%;
+    }
+    .ii{
+        width: 200px;
+        padding: 0 20px 20px 20px;
+        border-radius: 15%;
+    }
+    .arasanda{
+        margin-left: 0;
+        width: 70%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 634px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        padding: 0;
+        color: white;
+        justify-content: space-evenly;
+        
+    }
+    .ff{
+        flex-direction: column;
+    }
+    .arasanda{
+        margin-left: 0;
+        width: 70%;
+    }
+    .txt1{
+        margin-left: 5px;
+        width: 40%;
+        overflow: hidden;
+    }
+    .txt2{
+        width: 40%;
+        overflow: hidden;
+    }
+    .le2p{
+        width: 100%;
+        height: auto;
+    }
+    .trois{
+        height: auto;
+    }
+    input{
+        width: 100%;
+    }
+    .l1{
+        flex-direction: column;
+    }
+    .ii{
+        width: 250px;
+        border-radius: 30px;
+    }
+
+}
